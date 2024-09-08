@@ -1,11 +1,11 @@
-import ExpenseItem from "./Expenses/ExpenseItem";
-import Expenses from "./Expenses/Expenses";
-
+import ExpenseItem from "./componets/Expenses/ExpenseItem";
+import Expenses from "./componets/Expenses/Expenses";
+import NewExpenses from "./componets/NewExpenses/NewExpenses";
 function App() {
  
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpenses />
       <Expenses />
 
     </div>
