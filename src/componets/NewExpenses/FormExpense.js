@@ -38,7 +38,7 @@ const FormExpense = ({ onSaveExpenseData }) => {
         e.preventDefault()
         const body = {
             title: inputValue.enteredTitle,
-            amount: inputValue.enteredAmount,
+            amount: +inputValue.enteredAmount,
             date: new Date(inputValue.enteredDate)
         }
         onSaveExpenseData(body)
